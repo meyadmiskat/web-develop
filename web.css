@@ -65,7 +65,7 @@ nav ul li{
      border-radius:10px;
      
  }
- .banner-text{
+ .banner-text a {
     
     font-size: 16px;
     font-weight: bold;
@@ -95,11 +95,11 @@ nav ul li{
     font-size: 24px;
     
  }
- .section-button{
+ .section-button a {
     font-size: 16px;
     font-weight: bold;
-    background-color:#4E47FF ;
-     
+    color: #f7f9fc ;
+     text-decoration: none;
      border-radius:10px;
 width: 200px;
 height: 50px;
