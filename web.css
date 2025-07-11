@@ -83,7 +83,7 @@ nav ul li{
     text-decoration: none;
  }
  .header{
-    background-image: url(../Assets/Hero-bg.png);
+    background-image: url("./Assets/Hero-bg.png");
  }
  .action{
     display: flex;
