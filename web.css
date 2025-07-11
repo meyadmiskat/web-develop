@@ -170,5 +170,79 @@ height: 50px;
     background-color: azure;
     
  }
-   
- 
+   .form-section {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background: #f7f9fc; 
+}
+
+.form-container {
+  display: flex;
+
+  max-width: 1000px;
+  width: 100%;
+  margin-left: 300px;
+  gap: 400px;
+}
+
+.form-text {
+
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background: #4a3aff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.footer .logo {
+  font-size: 48px;
+  color: #3b3bff; /* Blue color like your example */
+  margin: 0;
+}
+
+.footer .description {
+  margin: 15px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.footer-nav {
+  margin-top: 20px;
+}
+
+.footer-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
