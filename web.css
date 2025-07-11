@@ -47,6 +47,10 @@ nav ul li{
      height: 60px;
      border-radius:10px;
 }
+.btn-primary:hover {
+  background-color: #1dc942;
+  color: #FFFFFF;
+}
 
 .banner{
     text-align: center;
@@ -56,15 +60,21 @@ nav ul li{
     font-size:65px ;
     font-weight: bold;
  }
- .banner-button{
-   
-  background-color:#4E47FF ;
-     padding: 12px 36px;
-     width:180px ;
-     height: 60px;
-     border-radius:10px;
-     
- }
+ .banner-button {
+  background-color: #4E47FF;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+ border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+  line-height: 60px;
+}
+.banner-button:hover {
+  background-color: #10b915;
+  transform: scale(1.05);
+}
  .banner-text a {
     
     font-size: 16px;
@@ -79,13 +89,17 @@ nav ul li{
     display: flex;
     justify-content: space-between;
     margin: 0px 100px 0px 200px;
+    background-color: #F2EDED;
+    border-radius: 10px;
  }
  .section-picture{
     width: 580px;
-    border-radius: 100px;
+    border-radius: 15px;
+    margin-right: 30px;
  }
  .section-content{
     max-width: 580px ;
+    margin-left: 30px;
  }
  .section-title{
     font-size: 42px;
